@@ -9,7 +9,6 @@ const services = [
     price: "From €5/month",
     features: [
       "Create a custom email like info@yourbusiness.com",
-      "Works with Gmail, Outlook, or your preferred email client",
       "Extra email addresses, aliases, or domain setup available upon request",
     ],
     cta: "Enquire",
