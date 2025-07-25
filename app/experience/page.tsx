@@ -11,7 +11,7 @@ const experiences = [
   {
     title: "Freelance Support Engineer",
     company: "Euro Dragon",
-    date: "Starting in August 2025",
+    date: "2025 - Current",
     description: "Provided technical support and troubleshooting for clients, ensuring smooth operation of software products and resolving customer issues efficiently.",
   },
   {

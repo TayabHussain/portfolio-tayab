@@ -126,22 +126,22 @@ export default function ServicesPage() {
               <div className="text-lg text-zinc-400 mb-8 text-center max-w-xl">Ready to get started or have questions? Reach out and let's talk about your project, idea, or business needs.</div>
               <div className="flex flex-col sm:flex-row gap-6 w-full justify-center">
                 <a
-                  href="mailto:info@yourbusiness.com"
+                  href="mailto:tayabhussain@live.nl"
                   className="flex items-center justify-center gap-2 px-6 py-3 rounded-lg bg-zinc-800 border border-zinc-600 text-zinc-100 font-semibold text-base shadow-xl hover:bg-zinc-700 transition-colors text-center w-full sm:w-auto focus:outline-none focus:ring-2 focus:ring-zinc-400/40"
                   target="_blank"
                   rel="noopener noreferrer"
                 >
                   <Mail className="w-5 h-5" />
-                  Email
+                  Mail Me
                 </a>
                 <a
-                  href="https://wa.me/31612345678"
+                  href="https://wa.me/310645279564?text=I%20am%20interested%20in%20your%20services%20for"
                   className="flex items-center justify-center gap-2 px-6 py-3 rounded-lg bg-zinc-800 border border-zinc-600 text-zinc-100 font-semibold text-base shadow-xl hover:bg-zinc-700 transition-colors text-center w-full sm:w-auto focus:outline-none focus:ring-2 focus:ring-zinc-400/40"
                   target="_blank"
                   rel="noopener noreferrer"
                 >
                   <MessageSquare className="w-5 h-5" />
-                  WhatsApp
+                  Message Me
                 </a>
               </div>
             </div>
