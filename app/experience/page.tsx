@@ -18,7 +18,7 @@ const experiences = [
     title: "Freelance Junior Software Engineer",
     company: "Finbaze",
     date: "2025 - Current",
-    description: "Working at Finbaze, a startup currently in the MVP phasewhere I am responsible for developing and maintaining the core application.",
+    description: "Working at Finbaze, a startup currently in the MVP phase where I am responsible for developing and maintaining the core application.",
   },
   {
     title: "Owner",
