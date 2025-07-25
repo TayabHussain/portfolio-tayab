@@ -1,4 +1,4 @@
 /node_modules
 /.next 
 /.contentlayer
-/next-env.d.ts
+next-env.d.ts

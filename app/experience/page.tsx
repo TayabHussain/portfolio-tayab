@@ -70,8 +70,8 @@ export default function ExperiencePage() {
       <main className="max-w-2xl mx-auto px-6 pt-32 pb-24">
         {/* Name and summary */}
         <header className="mb-12 text-center">
-          <h1 className="text-4xl sm:text-5xl font-display font-bold text-zinc-100 mb-6 tracking-tight">My Experience</h1>
-          <p className="text-zinc-400 text-lg max-w-xl mx-auto font-normal">Experienced software engineer with a passion for building minimal, scalable, and beautiful web products. Focused on developer experience, performance, and clean design.</p>
+          <h2 className="text-3xl font-bold tracking-tight text-zinc-100 sm:text-4xl">Experience</h2>
+          <p className="mt-4 text-zinc-400 text-lg max-w-xl mx-auto font-normal">Experienced software engineer with a passion for building minimal, scalable, and beautiful web products. Focused on developer experience, performance, and clean design.</p>
         </header>
 
         {/* Experience */}

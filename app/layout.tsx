@@ -6,19 +6,19 @@ import { Analytics } from "./components/analytics";
 
 export const metadata: Metadata = {
   title: {
-    default: "tayab.me",
-    template: "%s | tayab.me",
+    default: "tayab.dev",
+    template: "%s | tayab.dev",
   },
-  description: "Co-founder of unkey.dev and founder of planetfall.io",
+  description: "tayab.dev",
   openGraph: {
-    title: "tayab.me",
+    title: "tayab.dev",
     description:
-      "Co-founder of unkey.dev and founder of planetfall.io",
-    url: "https://tayab.me",
+      "Portfolio of Tayab - Software Engineer, Student, and Startup Founder.",
+    url: "https://tayab.dev",
     siteName: "tayab.me",
     images: [
       {
-        url: "https://tayab.me/og.png",
+        url: "https://tayab.dev/og.png",
         width: 1920,
         height: 1080,
       },
