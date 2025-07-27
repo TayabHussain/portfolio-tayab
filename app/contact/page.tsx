@@ -13,7 +13,7 @@ const socials = [
 	},
 	{
 		icon: <Mail size={20} />,
-		href: "mailto:tayabhussain@live.nl",
+		href: "mailto:contact@tayab.dev",
 		label: "Answer in 1-2 business days", 
 		handle: "Mail Me",
 	},

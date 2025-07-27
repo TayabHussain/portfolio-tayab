@@ -125,7 +125,7 @@ export default function ServicesPage() {
               <div className="text-lg text-zinc-400 mb-8 text-center max-w-xl">Ready to get started or have questions? Reach out and let's talk about your project, idea, or business needs.</div>
               <div className="flex flex-col sm:flex-row gap-6 w-full justify-center">
                 <a
-                  href="mailto:tayabhussain@live.nl"
+                  href="mailto:contact@tayab.dev"
                   className="flex items-center justify-center gap-2 px-6 py-3 rounded-lg bg-zinc-800 border border-zinc-600 text-zinc-100 font-semibold text-base shadow-xl hover:bg-zinc-700 transition-colors text-center w-full sm:w-auto focus:outline-none focus:ring-2 focus:ring-zinc-400/40"
                   target="_blank"
                   rel="noopener noreferrer"
