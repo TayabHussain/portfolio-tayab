@@ -8,10 +8,9 @@ import { getAllProjects } from "../../data/projects";
 export const revalidate = 60;
 export default async function ProjectsPage() {
   const allProjects = getAllProjects();
-  const featured = allProjects.find((project) => project.slug === "finbaze")!;
-  const top2 = allProjects.find((project) => project.slug === "woongids_makelaardij")!;
-  // const top3 = allProjects.find((project) => project.slug === "euro_dragon")!;
-  const top3 = allProjects.find((project) => project.slug === "wpflow")!;
+  const featured = allProjects.find((project) => project.slug === "woongids_makelaardij")!;
+  const top2 = allProjects.find((project) => project.slug === "wpflow")!;
+  const top3 = allProjects.find((project) => project.slug === "euro_dragon")!;
 
   return (
     <div className="relative pb-16">

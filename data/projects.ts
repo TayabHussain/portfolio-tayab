@@ -20,7 +20,7 @@ export const projects: Project[] = [
     description: "Finbaze is a platform for financial data aggregation and analysis, providing users with powerful tools to access, visualize, and interpret financial information from multiple sources.",
     date: "2023-07-01",
     url: "https://finbaze.com",
-    published: true,
+    published: false,
     repository: "chronark/unkey",
     images: [
       {
@@ -48,7 +48,32 @@ export const projects: Project[] = [
     description: "A real estate platform for property listings and management.",
     date: "2023-06-01",
     published: true,
-    images: [],
+    images: [
+      {
+        src: "/experience_img/woongidsmakelaardij/01-homepage.jpeg",
+        alt: "Woongids Makelaardij Homepage"
+      },
+      {
+        src: "/experience_img/woongidsmakelaardij/02-properties-page.jpeg",
+        alt: "Woongids Makelaardij Properties Page"
+      },
+      {
+        src: "/experience_img/woongidsmakelaardij/03-about-page.jpeg",
+        alt: "Woongids Makelaardij About Page"
+      },
+      {
+        src: "/experience_img/woongidsmakelaardij/04-admin-dashboard.jpeg",
+        alt: "Woongids Makelaardij Admin Dashboard"
+      },
+      {
+        src: "/experience_img/woongidsmakelaardij/05-featured-properties.jpeg",
+        alt: "Woongids Makelaardij Featured Properties"
+      },
+      {
+        src: "/experience_img/woongidsmakelaardij/06-property-editor.jpeg",
+        alt: "Woongids Makelaardij Property Editor"
+      }
+    ],
     content: "Woongids Makelaardij is a comprehensive real estate platform designed to streamline property management and enhance the home buying experience."
   },
   {

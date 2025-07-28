@@ -32,7 +32,7 @@ export function Carousel({ images }: CarouselProps) {
   if (images.length === 0) return null;
 
   return (
-    <div className="relative w-full max-w-2xl mx-auto">
+    <div className="relative w-full max-w-2xl mx-auto bg-black rounded-lg p-4">
       {/* Main Image Container */}
       <div className="relative overflow-hidden rounded-lg">
         <img
@@ -46,14 +46,14 @@ export function Carousel({ images }: CarouselProps) {
           <>
             <button
               onClick={prevSlide}
-              className="absolute left-2 top-1/2 transform -translate-y-1/2 bg-black/50 hover:bg-black/70 text-white p-1.5 rounded-full transition-all duration-200"
+              className="absolute left-2 top-1/2 transform -translate-y-1/2 bg-white/20 hover:bg-white/30 text-white p-1.5 rounded-full transition-all duration-200"
               aria-label="Previous image"
             >
               <ChevronLeft className="w-4 h-4" />
             </button>
             <button
               onClick={nextSlide}
-              className="absolute right-2 top-1/2 transform -translate-y-1/2 bg-black/50 hover:bg-black/70 text-white p-1.5 rounded-full transition-all duration-200"
+              className="absolute right-2 top-1/2 transform -translate-y-1/2 bg-white/20 hover:bg-white/30 text-white p-1.5 rounded-full transition-all duration-200"
               aria-label="Next image"
             >
               <ChevronRight className="w-4 h-4" />
@@ -64,7 +64,7 @@ export function Carousel({ images }: CarouselProps) {
 
       {/* Image Counter */}
       {images.length > 1 && (
-        <div className="absolute top-2 right-2 bg-black/50 text-white px-2 py-1 rounded-full text-xs">
+        <div className="absolute top-6 right-6 bg-white/20 text-white px-2 py-1 rounded-full text-xs">
           {currentIndex + 1} / {images.length}
         </div>
       )}
@@ -78,8 +78,8 @@ export function Carousel({ images }: CarouselProps) {
               onClick={() => goToSlide(index)}
               className={`w-2 h-2 rounded-full transition-all duration-200 ${
                 index === currentIndex
-                  ? "bg-zinc-600"
-                  : "bg-zinc-300 hover:bg-zinc-400"
+                  ? "bg-white"
+                  : "bg-white/40 hover:bg-white/60"
               }`}
               aria-label={`Go to image ${index + 1}`}
             />
@@ -88,7 +88,7 @@ export function Carousel({ images }: CarouselProps) {
       )}
 
       {/* Image Caption */}
-      <p className="mt-2 text-center text-sm text-zinc-600">
+      <p className="mt-2 text-center text-sm text-white/80">
         {images[currentIndex].alt}
       </p>
     </div>
