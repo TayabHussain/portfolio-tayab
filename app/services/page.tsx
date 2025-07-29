@@ -19,6 +19,7 @@ const services = [
     features: [
       "Host your website or web app on a fast, secure server",
       "Includes SSL certificate (HTTPS)",
+      "Managed Hosting (custom pricing)",
     ],
     cta: "Enquire",
   },
@@ -80,15 +81,14 @@ export default function ServicesPage() {
                     {service.name === "Website Development"
                       ? [
                           <li key="responsive">Fully responsive design (mobile & desktop)</li>,
-                          <li key="stack">WordPress, Framer, or custom HTML/Next.js</li>,
+                          <li key="stack">WordPress or custom website</li>,
                           <li key="includes">Includes 1–3 pages, contact form, basic SEO setup</li>,
                           <li key="addons" className="list-none mt-2">
                             <span className="font-semibold text-zinc-200">Add-ons:</span>
                             <ul className="ml-6 mt-1 list-disc text-zinc-400 text-[0.98rem] space-y-1">
                               <li>Extra pages (+€50/page)</li>
-                              <li>Blog/CMS (+€75)</li>
                               <li>Multilingual (+€100)</li>
-                              <li>E-commerce (custom pricing)</li>
+                              <li>Webshop (+€200)</li>
                             </ul>
                           </li>,
                         ]
