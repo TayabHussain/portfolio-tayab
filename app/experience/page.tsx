@@ -50,7 +50,7 @@ const education = [
   {
     degree: "Bsc Computer Science",
     school: "Hogeschool Utrecht",
-    date: "2015 - Current",
+    date: "2023 - Current",
   },
   {
     degree: "MBO Software Development",

@@ -29,7 +29,7 @@ const services = [
       "Fully responsive design (mobile & desktop)",
       "WordPress, Framer, or custom HTML/Next.js",
       "Includes 1–3 pages, contact form, basic SEO setup",
-      "Add-ons: Extra pages (+€50/page), Blog/CMS (+€75), Multilingual (+€100), E-commerce (custom pricing)",
+      "Add-ons: Extra pages (+€50/page), Multilingual (+€100), Webshop (+€200)",
     ],
     cta: "Book Now",
   },
